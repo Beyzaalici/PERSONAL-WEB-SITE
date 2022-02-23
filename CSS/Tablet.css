@@ -1,0 +1,20 @@
+#navbar{
+    flex-direction: column; /*tablet ekranına geldiğinde navbardaki
+    linkler alt satıra geçip yan yana dizilirler*/
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow:hidden; /*taşma olursa eğer sakla*/
+    height: 80px;
+}
+
+#genelbilgiler .items{
+    flex-direction: column;
+}
+
+#genelbilgiler .items .item{
+    width: 100%;
+}
+
+.okullar .okul{
+    flex-direction: column;
+}

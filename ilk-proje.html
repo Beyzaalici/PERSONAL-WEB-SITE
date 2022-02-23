@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta etiketleri sayfanın karakterini belirleyen özellikleri içerir. Arama motoruna belli bilgileri verir. Sayfa içerisinde gösterilmez-->
+    <meta charset="UTF-8" /> <!--türkçe karakterleri dahil eder-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyza Alıcı | İlk Sitem</title> 
+    <meta name="keyword" content="Beyza ALICI, kişisel sayfa, özgeçmiş">   <!--sitenin içinde bulunan ana hatlar, anahtar kelimeler-->
+    <meta name="description" content="Beyza ALICI hakkında bulunan genel bilgiler"> <!--site hakkında bir açıklama yapılan kısım-->
+    <meta name="Author" content="Beyza ALICI, alicibeyza6@gmail.com"> <!--siteyi yapan kişi hakkında bilgiler bulunur-->
+
+    <!--google fontlarını kullanmak için-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--font awesome iconlar için cdnjs'den alınan css linki-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="CSS/GenelTasarım.css"> <!--ilk başa en genel olan yazılır aşağı doğru özelleşir, heryerde kullanabileceğim tasarımlar burada olacak-->
+    <link rel="stylesheet" href="CSS/Anasayfa.css">
+
+    <link rel="stylesheet" media="(max-width:768px)" href="CSS/Tablet.css"> <!--tablet pixeli için media ayarı - 768px ve altına düştüğünde tablet ekranını açar-->
+    <link rel="stylesheet" media="(max-width:500px)" href="CSS/Telefon.css"><!--telefon pixeli için media ayarı - 500px ve altına düştüğünde tablet ekranını açar-->
+
+</head>
+<body>
+    <header class="bg-koyu-mavi" > <!--navbarın arka plan rengi-->
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="kucuk-baslik">Beyza Alıcı</h1>
+                <ul>
+                    <li><a href="#anasayfa">Ana Sayfa</a></li>
+                    <li><a href="#genelbilgiler">Genel Bilgiler</a></li>
+                    <li><a href="#akademik">Akademik</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>  
+    </header>
+    <section id="anasayfa"> <!--anasayfa kısmı -->
+        <img 
+        src="Fotograf/beyzalici.jpeg" 
+        width="300px" height="390px" 
+        alt="Beyza ALICI">
+
+        <div class="isim">  
+            <h2 class="buyuk-baslik">Beyza Alıcı</h2>
+            <p>Computer Engineer | Erzurum Teknik Üniversitesi</p>
+        </div>
+        
+        <a href="#akademik" class="btn btn-primary "> Akademik Geçmişe Git</a> <!--buton oluşturdu-->
+    </section>
+
+    <section id="genelbilgiler" class="bg-acik-mavi">
+
+        <h3 class="text-center orta-baslik">Genel Bilgiler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3 class="color ">KİŞİSEL BİLGİLER</h3>
+                <p>Doğum Yeri: Kahramanmaraş</p>
+                <p>Tarih: 31.05.2000</p>
+                <p>Adres: Şehit Abdullah Çavuş Mahallesi Alparslan Türkeş Bulvarı Hazal APT kat2/no3 
+                    Onikişubat / KAHRAMANMARAŞ <br> 46050
+                </p> 
+                
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3 class="color ">SEMİNER VE PANELLER</h3>
+                <ul>
+                    <li>26 NİSAN 2019 - Aselsan panel</li>
+                    <li>8 Aralık 2019 – Yarının Kadınları</li>
+                    <li>4 Mart 2020 – Lösevde Gönüllülük Semineri</li>
+                    <li>8 Mart 2021 – Güçlü Kadın Güçlü Gelecek </li>                    
+
+                </ul>
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3 class="color ">İLGİ ALANLARI</h3>
+                <ul>
+                    <li>Yapay Zeka Ve Uygulamaları</li>
+                    <li>Siber Güvenlik</li>
+                    <li>Web Tasarımı</li>
+                    <li>3D Oyun Geliştirme</li>
+                    <li>Mobil Uygulama Ve Web Geliştirme</li>
+                    <li>Havalı atıcılık Sporu</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="akademik"> <!--navbardaki akademik kısmına tıkladığında sayfadaki konumuna getirir-->
+
+        <h3 class="text-center orta-baslik color">Akademik Geçmiş</h3>
+
+        <div class="container">  <!--okulların yer aldığı üçlü bölümü kapsar-->
+            <div class="okullar">
+                
+                <hr>
+                <!--universite 1-->
+                <div class="okul">
+                    <div class="okul-foto">
+                        <img src="Fotograf/etu.jpg" alt="ETU">
+                        
+                    </div>
+
+                    <div class="okul-bilgi">
+                        <div class="bolum">
+                            Erzurum Teknik Üniversitesi | Bilgisayar Mühendisliği
+
+                        </div>
+                        <div class="aciklama">
+                            Başlangıç - Bitiş | 2018 - 2022 (Devam ediyor)
+                        </div>
+                        <div class="yetkinlik">
+                            Yetkinlikler | Python, Java, C, C#, HTML5, CSS
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
+
+                <!--universite 2-->
+                <div class="okul">
+                    <div class="okul-foto">
+                        <img src="Fotograf/ataturk.jpg" alt="Ataturk">
+                        
+                    </div>
+
+                    <div class="okul-bilgi">
+                        <div class="bolum">
+                            Atatürk Üniversitesi | Adalet Önlisans Programı
+
+                        </div>
+                        <div class="aciklama">
+                            Başlangıç - Bitiş | 2019 - 2021 (MEZUN.. !)
+                        </div>
+                        <div class="yetkinlik">
+                            Hukuksal Terimler
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
+                <!--universite 3 -->
+
+                <div class="okul">
+                    <div class="okul-foto">
+                        <img src="Fotograf/istanbul.png" alt="Istanbul">
+                       
+                    </div>
+
+                    <div class="okul-bilgi">
+                        <div class="bolum">
+                            İstanbul Üniversitesi | Grafik Tasarımı 
+
+                        </div>
+                        <div class="aciklama">
+                            Başlangıç - Bitiş | 2021 - 2023 (Devam ediyor)
+                        </div>
+                        <div class="yetkinlik">
+                            Fotoğraf, Photoshop
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <footer id="iletisim" class="bg-koyu-mavi">
+        <div class="iletisim-form">
+            <form>
+                <h4 class="text-center orta-baslik">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name"> İsim</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name="name" 
+                    id="name" 
+                    placeholder="İsim">
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Email">
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea 
+                    type="text" 
+                    class="form-control" 
+                    name="message" 
+                    id="message" 
+                    rows="5"
+                    placeholder="Mesajınız...">
+                    </textarea>
+                    
+                </div>
+
+                <button type="submit" class="btn btn-gonder">Gönder</button>
+            </form>
+
+            <ul>
+                <li><a href="https://twitter.com/BeyzaALICI4" target="_blank" title="Twitter "><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/beyzaalici?utm_medium=copy_link" target="_blank" title="İnstagram " ><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/beyza-alici-0b964917b/" target="_blank" title="Linkedin " ><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCpLPhGxcZL0I9Z5sexllyWA" target="_blank" title="Youtube "><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook" title="Facebook "></i></a></li>
+                <li><a href="#"><i class="fab fa-spotify" title="spotify "></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest" title="pinterest "></i></a></li>
+                <li><a href="#"><i class="fab fa-tumblr" title="tumblr"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
